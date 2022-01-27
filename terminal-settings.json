@@ -88,13 +88,10 @@
         "list": 
         [
             {
-                "backgroundImage": "D:\\Dropbox\\utils\\TerminalBackgrounds\\powershell-2-400x225.png",
-                "backgroundImageAlignment": "bottomRight",
-                "backgroundImageStretchMode": "none",
                 "colorScheme": "UbuntuLegit",
                 "font": 
                 {
-                    "size": 14
+                    "size": 12
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,

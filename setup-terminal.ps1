@@ -17,6 +17,9 @@ winget install JanDeDobbeleer.OhMyPosh
 Write-Host "Installing GitHub Cli" -ForegroundColor "Cyan"
 winget install GitHub.cli --source winget
 
+Write-Host "Installing Powershell Core" -ForegroundColor "Cyan"
+winget install --id Microsoft.Powershell --source winget
+
 Write-Host "Installing Oh My Posh using Winget" -ForegroundColor "Cyan"
 
 Write-Host "Ensuring Powershell Profile file and Path exists" -ForegroundColor "Cyan"

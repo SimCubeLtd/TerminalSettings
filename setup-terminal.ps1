@@ -27,7 +27,7 @@ Write-Host "Installing Fonts" -ForegroundColor "Cyan"
 Copy-Item  -Path .\fonts\*.ttf -Destination c:\windows\fonts\ -Force
 
 Write-Host "Ensuring Powershell Profile file and Path exists" -ForegroundColor "Cyan"
-New-Item –Path $PROFILE –Type File –Force
+New-Item -Path $PROFILE -Type File -Force
 
 Write-Host "Copying Terminal Settings json" -ForegroundColor "Cyan"
 Copy-Item -Path .\terminal-settings.json -Destination $TerminalProfilePath -Force

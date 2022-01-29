@@ -57,8 +57,8 @@
                     "style": "powerline",
                     "powerline_symbol": "",
                     "invert_powerline": false,
-                    "foreground": "#ffffff",
-                    "background": "#ffff66",
+                    "foreground": "#193549",
+                    "background": "#fffb38",
                     "leading_diamond": "",
                     "trailing_diamond": "",
                     "properties": null

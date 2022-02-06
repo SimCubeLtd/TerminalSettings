@@ -665,3 +665,13 @@ Set-PSReadLineKeyHandler -Key Ctrl+Shift+t `
     [Microsoft.PowerShell.PSConsoleReadLine]::Insert("dotnet test")
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
+
+function Sleep-Computer {
+try {
+  Add-Type -AssemblyName System.Windows.Forms
+} catch {}
+$PowerState = [System.Windows.Forms.PowerState]::Suspend;
+$Force = $false;
+$DisableWake = $false;
+[System.Windows.Forms.Application]::SetSuspendState($PowerState, $Force, $DisableWake);
+}
